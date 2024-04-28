@@ -1,3 +1,4 @@
+# Author: Kiryl Homenok
 name: Implementing CI/CD with Terraform
 on:
   push:
@@ -18,8 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       SERVER_PUBLIC_IP: ${{ steps.set-ip.outputs.instance_public_ip }}
-      RDS_HOSTNAME: ${{ steps.set-rds-hostname.outputs.rds_hostname }}
+      CREDENTIALS_DBHOST: ${{ steps.get-credentials-dbhost.outputs.credentials_dbhost }}
+      CREDENTIALS_DBNAME: ${{ steps.get-credentials-dbname.outputs.credentials_dbname }}
+      CREDENTIALS_DBUSERNAME: ${{ steps.get-credentials-dbusername.outputs.credentials_dbusername }}
+      CREDENTIALS_DBPASSWORD: ${{ steps.get-credentials-dbpassword.outputs.credentials_dbpassword }}
     steps:
+      - name: Waiting for approve deploy
+        uses: trstringer/manual-approval@v1.9.0
+        timeout-minutes: 15
+        with:
+          secret: ${{ secrets.GH_ACCESS_TOKEN }}
+          approvers: kh0mka
+          minimum-approvals: 1
+          issue-title: "[CI/CD] Build infrastructure and deploy web service on AWS"
+          issue-body: "Please approve or deny the launch"
+          exclude-workflow-initiator-as-approver: false
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Setup Terraform
@@ -33,7 +47,7 @@ jobs:
       - name: Planning Terraform
         id: plan
         run: |-
-          terraform plan -destroy \
+          terraform plan \
           -var="public_key=$PUBLIC_SSH_KEY" \
           -var="private_key=$PRIVATE_SSH_KEY" \
           -var="key_name=wordpresscicd" \
@@ -43,18 +57,44 @@ jobs:
         id: apply
         run: terraform apply PLAN
         working-directory: ./terraform
+
       - name: Trying to get EC2 Public IP
         id: set-ip
         run: |
           ip=$(terraform output instance_public_ip | tr -d '[],' | tr -d '[:space:]')
           echo "instance_public_ip=$ip" >> $GITHUB_OUTPUT
         working-directory: ./terraform
-      - name: Trying to get RDS Hostname
-        id: set-rds-hostname
+
+      - name: Getting RDS hostname
+        id: get-credentials-dbhost
         run: |
-          rds=$(terraform output rds_hostname)
-          rds=$(echo $rds | sed 's/"//g')
-          echo "rds_hostname=$rds" >> $GITHUB_OUTPUT
+          dbhost=$(terraform output credentials_dbhost)
+          dbhost=$(echo $dbhost | sed 's/"//g')
+          echo "credentials_dbhost=$dbhost" >> $GITHUB_OUTPUT
+        working-directory: ./terraform
+
+      - name: Getting RDS database name
+        id: get-credentials-dbname
+        run: |
+          dbname=$(terraform output credentials_dbname)
+          dbname=$(echo $dbname | sed 's/"//g')
+          echo "credentials_dbname=$dbname" >> $GITHUB_OUTPUT
+        working-directory: ./terraform
+
+      - name: Getting RDS username
+        id: get-credentials-dbusername
+        run: |
+          dbusername=$(terraform output credentials_dbusername)
+          dbusername=$(echo $dbusername | sed 's/"//g')
+          echo "credentials_dbusername=$dbusername" >> $GITHUB_OUTPUT
+        working-directory: ./terraform
+
+      - name: Getting RDS password
+        id: get-credentials-dbpassword
+        run: |
+          dbpassword=$(terraform output credentials_dbpassword)
+          dbpassword=$(echo $dbpassword | sed 's/"//g')
+          echo "credentials_dbpassword=$dbpassword" >> $GITHUB_OUTPUT
         working-directory: ./terraform
   deploy-app:
     runs-on: ubuntu-latest
@@ -62,10 +102,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setting an IP address as env variable
+      - name: Setting SERVER_PUBLIC_IP as env
         run: echo SERVER_PUBLIC_IP=${{ needs.infrastructure-deployment.outputs.SERVER_PUBLIC_IP }} >> $GITHUB_ENV
-      - name: Setting an RDS Hostname as env variable
-        run: echo RDS_HOSTNAME=${{ needs.infrastructure-deployment.outputs.RDS_HOSTNAME }} >> $GITHUB_ENV
+
+      - name: Setting CREDENTIALS_DBHOST as env
+        run: echo CREDENTIALS_DBHOST=${{ needs.infrastructure-deployment.outputs.CREDENTIALS_DBHOST }} >> $GITHUB_ENV
+
+      - name: Setting CREDENTIALS_DBNAME as env
+        run: echo CREDENTIALS_DBNAME=${{ needs.infrastructure-deployment.outputs.CREDENTIALS_DBNAME }} >> $GITHUB_ENV
+
+      - name: Setting CREDENTIALS_DBUSERNAME as env
+        run: echo CREDENTIALS_DBUSERNAME=${{ needs.infrastructure-deployment.outputs.CREDENTIALS_DBUSERNAME }} >> $GITHUB_ENV
+
+      - name: Setting CREDENTIALS_DBPASSWORD as env
+        run: echo CREDENTIALS_DBPASSWORD=${{ needs.infrastructure-deployment.outputs.CREDENTIALS_DBPASSWORD }} >> $GITHUB_ENV
+
       - name: Connect to EC2 instance via ssh
         env:
           AWS_DEFAULT_REGION: eu-north-1
@@ -74,7 +125,7 @@ jobs:
           host: ${{ env.SERVER_PUBLIC_IP }}
           username: ubuntu
           key: ${{ env.PRIVATE_SSH_KEY }}
-          envs: PRIVATE_SSH_KEY,AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_DEFAULT_REGION,AWS_REGION,RDS_HOSTNAME,GH_ACCESS_TOKEN
+          envs: PRIVATE_SSH_KEY,AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_DEFAULT_REGION,AWS_REGION,GH_ACCESS_TOKEN,CREDENTIALS_DBHOST,CREDENTIALS_DBNAME,CREDENTIALS_DBUSERNAME,CREDENTIALS_DBPASSWORD
           script: |-
             sudo apt update
             sudo apt install docker.io -y
@@ -82,7 +133,10 @@ jobs:
             git clone https://$GH_ACCESS_TOKEN@github.com/kh0mka/wordpress-ci-cd.git
             curl -sSLo wordpress-ci-cd/wp-https/nginx/options-ssl-nginx.conf https://raw.githubusercontent.com/certbot/certbot/master/certbot-nginx/certbot_nginx/_internal/tls_configs/options-ssl-nginx.conf
             cd wordpress-ci-cd/wp-http/
-            echo "RDS_HOSTNAME=$RDS_HOSTNAME" > .env
+            echo "CREDENTIALS_DBHOST=$CREDENTIALS_DBHOST" > .env
+            echo "CREDENTIALS_DBNAME=$CREDENTIALS_DBNAME" >> .env
+            echo "CREDENTIALS_DBUSERNAME=$CREDENTIALS_DBUSERNAME" >> .env
+            echo "CREDENTIALS_DBPASSWORD=$CREDENTIALS_DBPASSWORD" >> .env
             sudo docker-compose up -d
             sleep 5
             sudo docker-compose stop

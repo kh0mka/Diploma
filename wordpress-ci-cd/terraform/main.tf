@@ -32,6 +32,14 @@ data "aws_internet_gateway" "default" {
   }
 }
 
+data "aws_secretsmanager_secret_version" "db_credentials" {
+  secret_id = "db-credentials"
+}
+
+locals {
+  db_credentials = jsondecode(data.aws_secretsmanager_secret_version.db_credentials.secret_string)
+}
+
 resource "aws_default_vpc" "get" {
   tags = {
     Name = "Default VPC"
@@ -115,7 +123,7 @@ data "aws_ami" "getLatestUbuntu" {
 
 resource "aws_eip_association" "web-srv-eip" {
   instance_id   = aws_instance.public_instance.id
-  allocation_id = "eipalloc-011244477dcc86e94"
+  allocation_id = "eipalloc-0ccfea0274067619e"
 }
 
 resource "aws_key_pair" "public_instance_key" {
@@ -162,10 +170,10 @@ resource "aws_db_instance" "rds_instance" {
   engine            = "mysql"
   engine_version    = "5.7"
   allocated_storage = 10
-  db_name           = "wordpressdb"
+  db_name           = local.db_credentials.dbname
 
-  username = "kiryl"
-  password = "PrivateDatabaseTryToConnect99612" // Just for test
+  username = local.db_credentials.username
+  password = local.db_credentials.password
 
   parameter_group_name = "default.mysql5.7"
   skip_final_snapshot  = true
