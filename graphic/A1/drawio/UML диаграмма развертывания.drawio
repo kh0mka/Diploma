@@ -1,367 +1,381 @@
-<mxfile host="Electron" modified="2024-05-02T16:43:38.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="HDD5trxxExtSV2RugVo5" version="24.2.5" type="device">
+<mxfile host="Electron" modified="2024-05-10T12:52:08.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="75j74PGPLI8_Qp7EQ4wR" version="24.2.5" type="device">
   <diagram name="Страница — 1" id="VIXsuSBS1pq1h5ZDgpOF">
-    <mxGraphModel dx="4220" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="2569" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-30" value="&amp;lt;&amp;lt; executionEnvironment &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;GitHub Actions&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="740" y="1607" width="750" height="450" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-30" value="&amp;lt;&amp;lt; executionEnvironment &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;GitHub Actions&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="483" y="1645" width="1070" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-31" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;GitHub Runner&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
-          <mxGeometry width="710" height="340" relative="1" as="geometry">
-            <mxPoint x="10" y="70" as="offset" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-31" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;GitHub Runner&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
+          <mxGeometry width="1030" height="330" relative="1" as="geometry">
+            <mxPoint x="10" y="89" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-32" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;./terraform/main.tf&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
-          <mxGeometry x="270" y="180" width="190" height="70" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-32" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;./terraform/main.tf&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
+          <mxGeometry x="394.69" y="180" width="280.62" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-35" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;./terraform/outputs.tf&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
-          <mxGeometry x="36" y="180" width="190" height="70" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-35" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;./terraform/outputs.tf&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
+          <mxGeometry x="34.15" y="180" width="305.85" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-36" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;./terraform/variables.tf&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
-          <mxGeometry x="499" y="180" width="190" height="70" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-36" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;./terraform/variables.tf&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
+          <mxGeometry x="710" y="180" width="297.23" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-37" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;./.github/workflows/deploy.yml&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
-          <mxGeometry x="36" y="290.9" width="244" height="78.1" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-37" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;./.github/workflows/deploy.yml&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
+          <mxGeometry x="34.15" y="290.9" width="385.85" height="109.1" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;fontFamily=GOST type B;fontSize=18;" parent="cu2WuebdA3qUPu9hs7ft-30" source="cu2WuebdA3qUPu9hs7ft-36" target="cu2WuebdA3qUPu9hs7ft-32" edge="1">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;fontFamily=GOST type B;fontSize=28;" parent="cu2WuebdA3qUPu9hs7ft-30" source="cu2WuebdA3qUPu9hs7ft-36" target="cu2WuebdA3qUPu9hs7ft-32" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="349" y="461.2857882717838" as="sourcePoint" />
-            <mxPoint x="349" y="323.24662605020535" as="targetPoint" />
+            <mxPoint x="497.9066666666666" y="461.2857882717838" as="sourcePoint" />
+            <mxPoint x="497.9066666666666" y="323.24662605020535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=GOST type B;fontSize=18;" parent="cu2WuebdA3qUPu9hs7ft-30" source="cu2WuebdA3qUPu9hs7ft-35" target="cu2WuebdA3qUPu9hs7ft-32" edge="1">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=GOST type B;fontSize=28;" parent="cu2WuebdA3qUPu9hs7ft-30" source="cu2WuebdA3qUPu9hs7ft-35" target="cu2WuebdA3qUPu9hs7ft-32" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="509" y="214.34906474207125" as="sourcePoint" />
-            <mxPoint x="474" y="214.34906474207125" as="targetPoint" />
+            <mxPoint x="726.1733333333332" y="214.34906474207125" as="sourcePoint" />
+            <mxPoint x="676.2399999999999" y="214.34906474207125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-50" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;GitHub Repository&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
-          <mxGeometry x="550" y="290.9" width="139" height="78.1" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-50" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;GitHub Repository&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
+          <mxGeometry x="730" y="290.9" width="277.22" height="109.1" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-108" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Terraform&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
-          <mxGeometry x="310" y="290.9" width="216.72" height="79.1" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-108" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Terraform&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="cu2WuebdA3qUPu9hs7ft-30" vertex="1">
+          <mxGeometry x="438.68" y="290.9" width="261.32" height="109.1" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-109" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="cu2WuebdA3qUPu9hs7ft-108" vertex="1">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-109" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="cu2WuebdA3qUPu9hs7ft-108" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-34" value="&amp;lt;&amp;lt;deployment spec&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;deploy.yml: GitHub Actions Workflow" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="748" y="2127" width="300" height="60" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-34" value="&amp;lt;&amp;lt;deployment spec&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;deploy.yml: GitHub Actions Workflow" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="633" y="2165" width="448" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;" parent="1" source="cu2WuebdA3qUPu9hs7ft-34" target="cu2WuebdA3qUPu9hs7ft-37" edge="1">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;fontSize=28;fontFamily=GOST type B;" parent="1" source="cu2WuebdA3qUPu9hs7ft-34" target="cu2WuebdA3qUPu9hs7ft-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1150.5" y="1976" as="sourcePoint" />
-            <mxPoint x="1591" y="1331" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1151" y="1996" />
-              <mxPoint x="1590" y="1996" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-62" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;GOST type B&quot;&gt;&amp;lt;&amp;lt; deploy infrastructure &amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cu2WuebdA3qUPu9hs7ft-61" vertex="1" connectable="0">
-          <mxGeometry x="-0.294" relative="1" as="geometry">
-            <mxPoint x="75" y="-129" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-111" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;GOST type B&quot;&gt;SSH Port 22&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1240.0008883421476" y="1470.0000000000002" as="geometry">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-111" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;SSH Port 22&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=28;fontFamily=GOST type B;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1203.0008883421476" y="1508.0000000000002" as="geometry">
             <mxPoint x="3" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-135" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;Client&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="1460" width="640" height="590" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-135" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;Client&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="2093" y="1478" width="770" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-136" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;PC&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2320" y="1540" width="336.72" height="70" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-136" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br&gt;PC&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2496.28" y="1582" width="336.72" height="106" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-137" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="cu2WuebdA3qUPu9hs7ft-136" vertex="1">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-137" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="cu2WuebdA3qUPu9hs7ft-136" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-138" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;OS&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="2100" y="1630" width="556.72" height="380" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-138" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;OS&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="2133" y="1698" width="700" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-139" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Windows or UNIX&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2300" y="1700" width="336.72" height="70" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-139" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Windows or UNIX&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2473" y="1798" width="336.72" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-140" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="cu2WuebdA3qUPu9hs7ft-139" vertex="1">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-140" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="cu2WuebdA3qUPu9hs7ft-139" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-141" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;Browser&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="2220" y="1790" width="416.72" height="180" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-141" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;Browser&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="2303" y="1928" width="506.72" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-142" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div&gt;Chrome or other&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="1865" width="326.72" height="70" as="geometry" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-142" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;Chrome or other&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2460" y="2045" width="326.72" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-143" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="cu2WuebdA3qUPu9hs7ft-142" vertex="1">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-143" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="cu2WuebdA3qUPu9hs7ft-142" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-145" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;GOST type B&quot;&gt;HTTPS Port 443&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1760.0008883421476" y="1740.0000000000002" as="geometry">
-            <mxPoint x="1" y="2" as="offset" />
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-145" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;HTTPS Port 443&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=28;fontFamily=GOST type B;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1993.0008883421476" y="1938.0000000000002" as="geometry">
+            <mxPoint x="-16" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-184" value="&lt;font style=&quot;font-size: 40px;&quot; face=&quot;GOST type B&quot;&gt;&lt;i style=&quot;font-size: 40px;&quot;&gt;&lt;b style=&quot;font-size: 40px;&quot;&gt;UML диаграмма развертывания&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=40;" parent="1" vertex="1" connectable="0">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-184" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;i style=&quot;font-size: 48px;&quot;&gt;&lt;b style=&quot;font-size: 48px;&quot;&gt;UML диаграмма развертывания&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=48;fontFamily=GOST type B;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1650.0008883421476" y="130.00000000000023" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-86" value="&amp;lt;&amp;lt; executionEnvironment &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;AWS&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="710" y="381" width="2000" height="950" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-86" value="&amp;lt;&amp;lt; executionEnvironment &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;AWS&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="493" y="388" width="2250" height="1040" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-87" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;Web-Service Server&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="730" y="461" width="840" height="840" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-87" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;Web-Service Server&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="533" y="478" width="1190" height="920" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-88" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Docker Engine&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="772.4499999999999" y="540" width="216.72" height="90" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-88" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Docker Engine&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="650" y="587" width="259.72" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-89" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-88" vertex="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-89" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-88" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-90" value="&amp;lt;&amp;lt; proccess &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Docker Compose&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1044.96" y="540" width="216.72" height="90" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-90" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Docker Compose&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="999.5" y="587" width="257" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-91" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-90" vertex="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-91" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-90" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-92" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Docker Composer App&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1313.85" y="540" width="216.72" height="90" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-92" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Docker Composer App&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1341.93" y="587" width="262.15" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-93" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-92" vertex="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-93" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-92" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-94" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;./wp-https/docker-compose.yml&lt;/b&gt;" style="html=1;align=center;verticalAlign=top;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1182.85" y="703" width="306.72" height="78" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-94" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;./wp-https/docker-compose.yml&lt;/b&gt;" style="html=1;align=center;verticalAlign=top;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="1158.85" y="773.5" width="404.15" height="107" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-95" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;./wp-http/docker-compose.yml&lt;/b&gt;" style="html=1;align=center;verticalAlign=top;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="822.85" y="703" width="289.28" height="78" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-95" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;./wp-http/docker-compose.yml&lt;/b&gt;" style="html=1;align=center;verticalAlign=top;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="693" y="773.5" width="395.13" height="107" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bVE5dfZladMgN1b7Eggr-90" target="bVE5dfZladMgN1b7Eggr-95" edge="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=28;fontFamily=GOST type B;" parent="1" source="bVE5dfZladMgN1b7Eggr-90" target="bVE5dfZladMgN1b7Eggr-95" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="336.23297872340424" y="1401" as="sourcePoint" />
-            <mxPoint x="672.8329787234043" y="781" as="targetPoint" />
+            <mxPoint x="369.23297872340424" y="1439" as="sourcePoint" />
+            <mxPoint x="705.8329787234043" y="819" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bVE5dfZladMgN1b7Eggr-90" target="bVE5dfZladMgN1b7Eggr-94" edge="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=28;fontFamily=GOST type B;" parent="1" source="bVE5dfZladMgN1b7Eggr-90" target="bVE5dfZladMgN1b7Eggr-94" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1003.573404255319" y="691" as="sourcePoint" />
-            <mxPoint x="902.6585106382979" y="771" as="targetPoint" />
+            <mxPoint x="1036.573404255319" y="729" as="sourcePoint" />
+            <mxPoint x="935.6585106382979" y="809" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-98" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;GOST type B&quot;&gt;&amp;lt;&amp;lt; uses &amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bVE5dfZladMgN1b7Eggr-97" vertex="1" connectable="0">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-98" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&amp;lt;&amp;lt; uses &amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=28;fontFamily=GOST type B;" parent="bVE5dfZladMgN1b7Eggr-97" vertex="1" connectable="0">
           <mxGeometry x="-0.294" relative="1" as="geometry">
-            <mxPoint x="-142" as="offset" />
+            <mxPoint x="-200" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" parent="1" source="bVE5dfZladMgN1b7Eggr-90" target="bVE5dfZladMgN1b7Eggr-88" edge="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;fontSize=28;fontFamily=GOST type B;" parent="1" source="bVE5dfZladMgN1b7Eggr-90" target="bVE5dfZladMgN1b7Eggr-88" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1003.573404255319" y="691" as="sourcePoint" />
-            <mxPoint x="902.6585106382979" y="771" as="targetPoint" />
+            <mxPoint x="1036.573404255319" y="729" as="sourcePoint" />
+            <mxPoint x="935.6585106382979" y="809" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bVE5dfZladMgN1b7Eggr-92" target="bVE5dfZladMgN1b7Eggr-90" edge="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=28;fontFamily=GOST type B;" parent="1" source="bVE5dfZladMgN1b7Eggr-92" target="bVE5dfZladMgN1b7Eggr-90" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1179.3606382978724" y="601" as="sourcePoint" />
-            <mxPoint x="1179.3606382978724" y="369" as="targetPoint" />
+            <mxPoint x="1212.3606382978724" y="639" as="sourcePoint" />
+            <mxPoint x="1212.3606382978724" y="407" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-101" value="&amp;lt;&amp;lt; node&amp;nbsp;&amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;Docker Compose Project&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="759.42" y="861" width="390.58" height="400" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-101" value="&amp;lt;&amp;lt; node&amp;nbsp;&amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;Docker Compose Project&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="563" y="928" width="390.58" height="449" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-102" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;wordpress:php8.2-fpm&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="772.45" y="941" width="341.4" height="80" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-102" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;wordpress:php8.2-fpm&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="577.9000000000001" y="1027" width="341.4" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-103" value="&amp;lt;&amp;lt; node&amp;nbsp;&amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;certbot:latest&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="772.45" y="1041" width="341.4" height="80" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-103" value="&amp;lt;&amp;lt; node&amp;nbsp;&amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;certbot:latest&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="577.9000000000001" y="1138" width="341.4" height="91.5" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-104" value="&amp;lt;&amp;lt; node&amp;nbsp;&amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;nginx:latest&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="772.45" y="1141" width="341.4" height="80" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-104" value="&amp;lt;&amp;lt; node&amp;nbsp;&amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;nginx:latest&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="577.9000000000001" y="1252.5" width="341.4" height="94.5" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;exitX=0.002;exitY=0.876;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.159;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bVE5dfZladMgN1b7Eggr-101" target="bVE5dfZladMgN1b7Eggr-88" edge="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;exitX=0.001;exitY=0.925;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=28;fontFamily=GOST type B;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bVE5dfZladMgN1b7Eggr-101" target="bVE5dfZladMgN1b7Eggr-88" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="791.9776595744681" y="861" as="sourcePoint" />
-            <mxPoint x="570" y="751" as="targetPoint" />
+            <mxPoint x="824.9776595744681" y="899" as="sourcePoint" />
+            <mxPoint x="783" y="678" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-106" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;EC2 Instance Type: t3.micro&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1190.57" y="1041" width="340" height="80" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-106" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;EC2 Instance Type: t3.micro&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1063" y="1135.5" width="520" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-107" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-106" vertex="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-107" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-106" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-108" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;OS: Ubuntu Server 22.04 LTS&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1190.57" y="1171" width="340" height="80" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-108" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;OS: Ubuntu Server 22.04 LTS&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1063" y="1268" width="520" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-109" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-108" vertex="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-109" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-108" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-110" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;GOST type B&quot;&gt;&amp;lt;&amp;lt; uses &amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1249.9994117603806" y="666" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-110" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&amp;lt;&amp;lt; uses &amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=28;fontFamily=GOST type B;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1256.4994117603806" y="731.48" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-111" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Elastic IP address&lt;/b&gt;" style="html=1;align=center;verticalAlign=top;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="2490" y="1071" width="200" height="90" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-112" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;u style=&quot;font-size: 28px;&quot;&gt;RDS Instance&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="1771" y="478" width="365" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-112" value="&amp;lt;&amp;lt; node &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;RDS Instance&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1780" y="461" width="365" height="310" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-113" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Docker Hub API&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1073.0000000000002" y="250" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-113" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Docker Hub API&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1328.57" y="250" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-114" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-113" vertex="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-114" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-113" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="bVE5dfZladMgN1b7Eggr-113" edge="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=28;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=GOST type B;" parent="1" target="bVE5dfZladMgN1b7Eggr-113" edge="1" source="bVE5dfZladMgN1b7Eggr-92">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1428" y="591" as="sourcePoint" />
-            <mxPoint x="1151.6578723404255" y="658" as="targetPoint" />
+            <mxPoint x="1461" y="629" as="sourcePoint" />
+            <mxPoint x="1184.6578723404255" y="696" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1473" y="450" />
+              <mxPoint x="1203" y="450" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-116" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;MySQL 5.7 Database&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1827.5" y="571" width="270" height="90" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-116" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;MySQL 5.7 Database&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1818.5" y="588" width="270" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-117" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-116" vertex="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-117" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-116" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-118" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Route Table&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2490" y="550" width="200" height="100" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-118" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Route Table&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2453" y="628" width="270" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-119" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-118" vertex="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-119" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-118" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-120" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;VPC&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="550" width="200" height="100" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-130" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;EC2&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2453" y="1007" width="269.36" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-121" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-120" vertex="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-131" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-130" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-122" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Internet Gateway&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1930" y="800" width="200" height="100" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-142" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Secrets Manager&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2158" y="478" width="565" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-123" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-122" vertex="1">
+        <mxCell id="bVE5dfZladMgN1b7Eggr-143" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-142" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-124" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Public Subnet&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="671" width="200" height="100" as="geometry" />
+        <mxCell id="bVE5dfZladMgN1b7Eggr-146" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;./wp-https/nginx/options-ssl-nginx.conf&lt;/b&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;./wp-https/nginx/default.conf&lt;/b&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;./wp-http/nginx/default.conf&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;" parent="1" vertex="1">
+          <mxGeometry x="1063" y="928" width="520" height="189" as="geometry" />
         </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-125" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-124" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-126" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Private Subnet&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2490" y="671" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-127" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-126" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-128" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Security Group&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="800" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-129" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-128" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-130" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;EC2&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2490" y="941" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-131" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-130" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-132" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;RDS&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="1061" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-133" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-132" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-134" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Amazon S3&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1930" y="1061" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-135" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-134" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-136" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;IAM Policy&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2490" y="806" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-137" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-136" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-138" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;IAM Role&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1930" y="931" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-139" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-138" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-140" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;CloudWatch&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="931" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-141" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-140" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-142" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Secrets Manager&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="461" width="530" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-143" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=18;verticalAlign=top;" parent="bVE5dfZladMgN1b7Eggr-142" vertex="1">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bVE5dfZladMgN1b7Eggr-146" value="&amp;lt;&amp;lt; artifact &amp;gt;&amp;gt;&lt;br&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;./wp-https/nginx/options-ssl-nginx.conf&lt;/b&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;./wp-https/nginx/default.conf&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;./wp-http/nginx/default.conf&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;dashed=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="861" width="336.72" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=300;exitDy=640;entryX=1.001;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="cu2WuebdA3qUPu9hs7ft-135" target="bVE5dfZladMgN1b7Eggr-87" edge="1">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=255;exitDy=700;entryX=0.837;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;fontSize=28;fontFamily=GOST type B;" parent="1" source="cu2WuebdA3qUPu9hs7ft-138" target="bVE5dfZladMgN1b7Eggr-87" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1354" y="1689" as="sourcePoint" />
-            <mxPoint x="1526.92" y="1293.1599999999999" as="targetPoint" />
+            <mxPoint x="1387" y="1727" as="sourcePoint" />
+            <mxPoint x="1559.92" y="1331.1599999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1853" y="1953" />
+              <mxPoint x="1853" y="1248" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu2WuebdA3qUPu9hs7ft-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.007;exitY=0.164;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=840;entryDy=425;entryPerimeter=0;exitPerimeter=0;" parent="1" source="cu2WuebdA3qUPu9hs7ft-31" target="bVE5dfZladMgN1b7Eggr-87" edge="1">
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.007;exitY=0.164;exitDx=0;exitDy=0;entryX=0.999;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;fontSize=28;fontFamily=GOST type B;" parent="1" source="cu2WuebdA3qUPu9hs7ft-31" target="bVE5dfZladMgN1b7Eggr-87" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1000" y="1540" as="sourcePoint" />
-            <mxPoint x="1170" y="1290" as="targetPoint" />
+            <mxPoint x="1033" y="1578" as="sourcePoint" />
+            <mxPoint x="1203" y="1328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-1" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;Private Subnet&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2453" y="756" width="269.36" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-2" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-3" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;IAM Policy&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2453" y="880" width="269.36" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-4" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-3">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-5" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Elastic IP Address&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2453" y="1138" width="269.36" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-6" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-5">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-11" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;VPC&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2158" y="628" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-12" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-11">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-13" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Public Subnet&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2158" y="756" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-14" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-13">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-15" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Security Group&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2158" y="880" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-16" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-15">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-17" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;CloudWatch&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2158" y="1007" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-18" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-17">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-19" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;Internet Gateway&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="756" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-20" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-19">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-21" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;IAM Role&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="880" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-22" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-21">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-23" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b&gt;Amazon S3&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1866" y="1007" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-24" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-23">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-25" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;br style=&quot;font-size: 28px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;RDS&lt;/b&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2158" y="1138" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dZBJtB4iivztmbpcv_K5-26" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fontFamily=GOST type B;fontSize=28;verticalAlign=top;" vertex="1" parent="dZBJtB4iivztmbpcv_K5-25">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;fontSize=28;fontFamily=GOST type B;entryX=1.002;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="bVE5dfZladMgN1b7Eggr-87" source="cu2WuebdA3qUPu9hs7ft-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1183.5" y="2014" as="sourcePoint" />
+            <mxPoint x="1624" y="1369" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1490" y="1980" />
+              <mxPoint x="1624" y="1980" />
+              <mxPoint x="1624" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu2WuebdA3qUPu9hs7ft-62" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&amp;lt;&amp;lt; deploy&amp;nbsp;&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=28;fontFamily=GOST type B;" parent="cu2WuebdA3qUPu9hs7ft-61" vertex="1" connectable="0">
+          <mxGeometry x="-0.294" relative="1" as="geometry">
+            <mxPoint x="-1" y="-277" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
